@@ -103,23 +103,36 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		[$WIN32]
+		"xpos"			"150"		[$WIN32]
 		"xpos_minmode"	"-15"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
+		"ypos"			"r70"	[$WIN32]
 		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
+		"wide"			"120"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		"image"				"../hud/chr_red"	
+		"teambg_2"			"../hud/chr_red"
+		"teambg_3"			"../hud/chr_blue"
+	}
+	
+		"classmodelpanelOutline"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelOutline"
+		"xpos"			"150"		[$WIN32]
+		"xpos_minmode"	"-15"		[$WIN32]
+		"ypos"			"r70"	[$WIN32]
+		"zpos"			"2"		
+		"wide"			"120"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"../hud/chr_outline"	
+		"teambg_2"			"../hud/chr_outline"
+		"teambg_3"			"../hud/chr_outline"
 	}
 
 	"classmodelpanel"
@@ -129,7 +142,7 @@
 		
 		"xpos"			"150"	[$WIN32]
 		"ypos"			"r300"	[$WIN32]
-		"zpos"			"2"		
+		"zpos"			"3"		
 		"wide"			"150"
 		"wide_minmode"	"52"
 		"tall"			"300"
