@@ -104,7 +104,6 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"150"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
 		"ypos"			"r70"	[$WIN32]
 		"zpos"			"1"		
 		"wide"			"120"
