@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/logos/low_ammo"
+	"$translucent" 1
+}

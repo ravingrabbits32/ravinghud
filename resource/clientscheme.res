@@ -3110,8 +3110,30 @@ Scheme
 			}
 		}
 		
-	}
+		ComicSansMSBold24
+		{
+			"1"
+			{
+				"name"		"Comic Sans MS Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+
+		
+		ComicSansMSBold42
+		{
+			"1"
+			{
+				"name"		"Comic Sans MS Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
 	
+	
+	}
+
 
 
 	//

@@ -1,0 +1,25 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/logos/ammo_blue"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	
+	$counter	"0"
+	$finalframe	"0"
+	Proxies {
+	LinearRamp{
+		rate		"0.9"
+		initalValue	"0"
+		resultVar	"$frame"
+	}
+	WrapMinMax{
+		srcVar1		"$frame"
+		minVal		"0"
+		maxVal		"3"
+		resultVar	"$frame"
+	}
+	}
+
+}
